@@ -1,0 +1,12 @@
+# Access types:
+# - private: You have to enter the username and password below in order to view the stats
+# - public: Anyone can view your site's stats
+# 
+# Queue size:
+# - The number of visitors in the queue before saving the stats to the DB.
+#   For best performance, minimum size shouldn't be under 10
+# 
+
+rstats:
+  access_type: private
+  queue_size: 10
